@@ -1,0 +1,31 @@
+#!/bin/bash
+
+detail='#include "stdio.h"
+#include "cmath"
+#include "cstring"
+#include "algorithm"
+#include "iostream"
+#include "vector"
+#include "queue"
+#include "stack"
+#include "set"
+#include "map"
+#define lson root<<1
+#define rson root<<1|1
+#define lowbit(i) i&(-i)
+#define debug(x) cout<<#x<<"="<<x<<endl;
+#define here cout<<endl<<"_______________here "<<endl;
+#define INF 0x7f7f7f7f
+#define Prime 999983
+#define N *
+using namespace std;
+int main()
+{
+   //#ifndef ONLINE_JUDGE
+   //freopen("input.txt","r",stdin);
+   //#endif
+}
+'
+echo "$detail" > "$*.cpp" 
+vi "$*.cpp"
+
